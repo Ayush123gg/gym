@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url("img/imm2.jpg");
+    height: 80px;
+    font-family: 'Baloo Bhaijaan',cursive;
+}
+
+.leftt{
+    display: inline;
+    color: white;
+    /* border:2px solid red; */
+    position: absolute;
+    left: 18px;
+    top: 20px;
+}
+
+.midd{
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+    color: white;
+    /* border:2px solid green; */
+}
+.rightt{
+    position: absolute;
+    right: 34px;
+    top:20px;
+
+    display: inline;
+    color: white ;
+    /* border:2px solid blue; */
+}
+.navbar{
+    display:inline-block;
+}
+.navbar li{
+    /* color: white; we have to make 'a' of li*/
+    display:inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+     text-decoration: none; /*remove <a> underline*/
+      padding:  10px;
+}
+.navbar li a:hover,.navbar li a.ff{/*agar a pr hover kre koi ya fir a active ho*/
+    text-decoration: underline;
+    color: brown;
+}
+.leftt img{
+    width: 80px;
+    height: 80px;
+    filter:invert(100%);
+}
+.leftt p{
+    text-align: center;
+    line-height: 0px;
+}
+
+.btn {
+    margin: 5px 5px;/*top, horizontal*/
+    background-color: black;
+    margin: 0px auto;
+    color:white;
+    font-family: 'Baloo Bhaijaan',cursive;
+    /* padding: 4px 14px; */
+    border: 2px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    font-size:  15px;
+
+     cursor: pointer;
+}
+.btn:hover{
+    background-color: grey;
+}
+.cc{
+    border: 2px solid rgb(0, 132, 255);
+    color:  green;
+    margin: 70px 610px;
+    padding: 40px 20px;
+    width: 45%;
+    border-radius: 20px;
+}
+.fg input{
+    text-align: center;
+    display: block;
+    width: 408px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: 'Baloo Bhaijaan',cursive;
+}
+.cc h1{
+    text-align: center;
+}
+.cc .btn{
+    display: block;
+    width: 74%;
+    margin: 10px auto;
+    font-size: 20px;
+}
